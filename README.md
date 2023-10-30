@@ -1,3 +1,3 @@
 ## README
 
-welcome in my blog!
+welcome My Personal Blog Website!

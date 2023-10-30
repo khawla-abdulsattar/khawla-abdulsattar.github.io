@@ -1,6 +1,6 @@
 ---
 title: "About me :p"
-date: 2022-10-04
+date: 2023-10-30
 draft: false
 layout: Single
 ---
