@@ -12,12 +12,13 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
 [params]
     
     brand = "ResearcherX"                   
-    brand_image = "images/197f8b871cf358f40590c80d474d16cf.jpg"    
+    brand_image = "/images/197f8b871cf358f40590c80d474d16cf.jpg"    
     description = "bug Hunter, developer, CS student" # Used as default meta description if not specified in front matter
     dark_mode = true   
 
 
     menu = [
+         {Name = "About", URL = "/about/", HasChildren = false},
         {Name = "posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
     
     ]
@@ -64,10 +65,6 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
     code_color_dark = "#ff7f7f"             # default is #ff7f7f
     code_background_color_dark = "#393D47"  # default is #393D47
 
-    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
-    # remark42 = true
-    # remark42_host = "https://yourhost.com"
-    # remark42_site_id = "your_site_id"
 
     # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
     # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
