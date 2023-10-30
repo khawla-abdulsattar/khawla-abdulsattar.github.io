@@ -8,24 +8,20 @@ theme = "poison"
 paginate = 10
 pluralizelisttitle = false   # removes the automatically appended "s" on sidebar entries
 
-# NOTE: If using Disqus as commenting engine, uncomment and configure this line
-# disqusShortname = "yourDisqusShortname"
 
 [params]
     
-    brand = "ResearcherX"                      # name of your site - appears in the sidebar
-    brand_image = "static/images/197f8b871cf358f40590c80d474d16cf.jpg"    # path to the image shown in the sidebar
+    brand = "ResearcherX"                   
+    brand_image = "images/197f8b871cf358f40590c80d474d16cf.jpg"    
     description = "bug Hunter, developer, CS student" # Used as default meta description if not specified in front matter
     dark_mode = true   
 
 
     menu = [
         {Name = "posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
-        {Name = "about", URL = "/about/"}
     
     ]
-
-    # Links to your socials.  Comment or delete any you don't need/use. 
+ 
     github_url = "https://github.com/khawla-abdulsattar"
     twitter_url = "https://twitter.com/_ResearcherX_"
     tryhackme_url = "https://tryhackme.com/p/khawlaabdulsatta"
