@@ -1,0 +1,18 @@
+{{/* Personal/custom script for light/dark mode and tabs */}}
+{{ $js := slice
+      (resources.Get "js/light_dark.js")
+      (resources.Get "js/tabs.js") }}
+
+{{/* Locally hosted code for KaTeX */}}
+{{ $js = $js | append
+      (resources.Get "js/lib/katex.js")
+      (resources.Get "js/lib/auto-render.js") }}
+
+{{/* Personal/custom scripts for KaTeX and table of contents */}}
+{{ $js = $js | append
+      (resources.Get "js/katex.js")
+      (resources.Get "js/toc.js") }}
+
+{{ $js_bundle := $js | resources.Concat "js/bundle.js" | minify | fingerprint }}
+
+<script defer language="javascript" type="text/javascript" src="{{ $js_bundle.RelPermalink }}"></script>
