@@ -12,14 +12,14 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
 [params]
     
     brand = "ResearcherX"                   
-    brand_image = "/images/197f8b871cf358f40590c80d474d16cf.jpg"    
+    brand_image = "/images/photo_2023-07-10_05-34-55.jpg"   
     description = "bug Hunter, developer, CS student" # Used as default meta description if not specified in front matter
     dark_mode = true   
 
 
     menu = [
-         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3}
     
     ]
  
