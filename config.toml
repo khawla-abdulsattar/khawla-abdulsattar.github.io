@@ -12,7 +12,7 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
 [params]
     
     brand = "ResearcherX"                   
-    brand_image = "https://raw.githubusercontent.com/khawla-abdulsattar/poison/main/static/images/photo_2023-07-10_05-34-55.jpg"   
+    brand_image = "https://avatars.githubusercontent.com/u/139021578?s=400&u=31f0a9bbd0852e35f4a77896a38aa82b07cebd2d&v=4"   
     description = "bug Hunter, developer, CS student" # Used as default meta description if not specified in front matter
     dark_mode = true   
 
