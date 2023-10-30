@@ -12,15 +12,13 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
 [params]
     
     brand = "ResearcherX"                   
-    brand_image = "/images/photo_2023-07-10_05-34-55.jpg"   
+    brand_image = "https://raw.githubusercontent.com/khawla-abdulsattar/poison/main/static/images/photo_2023-07-10_05-34-55.jpg"   
     description = "bug Hunter, developer, CS student" # Used as default meta description if not specified in front matter
     dark_mode = true   
 
 
     menu = [
-        {Name = "posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
-        {Name = "About", URL = "/about/", HasChildren = false},
-    
+        {Name = "posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},    
     ]
  
     github_url = "https://github.com/khawla-abdulsattar"
