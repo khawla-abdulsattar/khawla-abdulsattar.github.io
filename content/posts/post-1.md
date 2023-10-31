@@ -10,9 +10,9 @@ tags: ["bug bounty hunting", "write-up"]
 
 السَّلَامُ عَلَيْكُمْ و رحمة الله وبركاته
 
-peace be upan you !
+peace be upan you ! : 💐
 
-Welcome to my first write-up, where I share the exciting tale of my discovery and reporting of a simple yet impactful XSS bug in Swagger-ui.
+Welcome to my first write-up 📝, where I share the exciting tale of my discovery and reporting of a simple yet impactful XSS bug in Swagger-ui.
 
 so, lets go on and start with a short intro about the vulnerablity!
 
@@ -23,9 +23,9 @@ and The root cause is that Swagger-UI allows users to provide a URL for an API s
 
 - for more about this vuln, please check the References !
 
-### The Story Unfolds: The Journey Begins :sparkles: !!
+### The Story Unfolds: The Journey Begins ✨ !!
 
-so During my :mag_right: of the Swagger-ui application, that I found via shodan by using specific Dorks! Here are a few dorks that you can use to search in Shodan for Swagger-UI:
+so During my 🔎 of the Swagger-ui application, that I found via shodan by using specific Dorks! Here are a few dorks that you can use to search in Shodan for Swagger-UI:
 
 ```
 "Swagger-UI"
@@ -82,10 +82,10 @@ Cross-site scripting attacks can have severe consequences and enable attackers t
 
 ---
 
-As I conclude this article, I hope that my journey of uncovering an XSS bug has ignited a spark within you :sparkler: .
+As I conclude this article, I hope that my journey of uncovering an XSS bug has ignited a spark within you ⚡: .
 Whether you're a security professional or just starting your exploration of the web security realm, remember that every bug, no matter how small or seemingly insignificant, has the potential to make a significant impact.
 
-###### thanks fot reading :)
+###### thanks fot reading 💜👾
 
 ## References :
 

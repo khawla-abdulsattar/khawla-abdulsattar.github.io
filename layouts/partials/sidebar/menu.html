@@ -17,7 +17,7 @@
                 <a href="/poison/about/">About me</a>
             </li> 
             <li class="heading">
-                <a href="/poison/posts/">About me</a>
+                <a href="/poison/posts/">Posts</a>
             </li> 
             {{ range $sections }}
                 {{ if eq (lower .Title) (lower (strings.TrimSuffix "/" (strings.TrimPrefix "/" $menu_item.URL))) }}
