@@ -18,8 +18,7 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
 
 
     menu = [
-        {Name = "About", URL = "/about/", HasChildren = false},
-      {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
+      { URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 3},
     ]
  
     github_url = "https://github.com/khawla-abdulsattar"
