@@ -20,11 +20,11 @@ layout: Single
           ;       n /│  │/         │      │
           │      / v    /\/`-'v√\'.│\     ,
           :    /v`,———          ————.^.    ;
-          '   │  /′@@`,         ,@@ `\│    ;     hello! Im khawla, aka ResearcherX, Part-time bug collector, and Developer~
-          │  n│  '.@@/          \@@  /│\  │;           Computer science student, wannabe RedTeamer!                  
-          ` │ `    ¯¯¯           ¯¯ ¯  │ \/││            interested_in: ["red teaming", "OSINT", "penetration testing", "RE"]
+          '   │  /′@@`,         ,@@ `\│    ;    
+          │  n│  '.@@/          \@@  /│\  │;                          
+          ` │ `    ¯¯¯           ¯¯ ¯  │ \/││           
            \ \ \                       │ /\/
-           '; `-\          `′         /│/ │′                 and that's all, welcome to my world again!
+           '; `-\          `′         /│/ │′                 
             `    \       —           /│  │
              `    `.              .' │  │
               v,_   `;._     _.-;    │  /
@@ -34,5 +34,10 @@ layout: Single
                                      ││
                                      ││
                                      │,
+
+ hello! Im khawla, aka ResearcherX, Part-time bug collector, and Developer~
+    Computer science student, wannabe RedTeamer!
+       interested_in: ["red teaming", "OSINT", "penetration testing", "RE"]
+          and that's all, welcome to my world again!
 
 ```
