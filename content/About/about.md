@@ -8,10 +8,31 @@ layout: Single
 ---
 
 ```
-const ResearcherX = {
-  whoimi: ["Part-time bug collector","Computer science student","Developer"],
-  interested_in: ["red teaming", "OSINT", "penetration testing"] "
-}
 
+
+                    _..--¯¯¯¯--.._
+                ,-''              `-.
+              ,'                     `.                       
+             ,                         \                  
+            /                           \                   
+           /          ′.                 \                     
+          '          /  ││                ;                              
+          ;       n /│  │/         │      │
+          │      / v    /\/`-'v√\'.│\     ,
+          :    /v`,———          ————.^.    ;
+          '   │  /′@@`,         ,@@ `\│    ;     hello! Im khawla, aka ResearcherX, Part-time bug collector, and Developer~
+          │  n│  '.@@/          \@@  /│\  │;           Computer science student, wannabe RedTeamer!                  
+          ` │ `    ¯¯¯           ¯¯ ¯  │ \/││            interested_in: ["red teaming", "OSINT", "penetration testing", "RE"]
+           \ \ \                       │ /\/
+           '; `-\          `′         /│/ │′                 and that's all, welcome to my world again!
+            `    \       —           /│  │
+             `    `.              .' │  │
+              v,_   `;._     _.-;    │  /
+                 `'`\│-_`'-''__/^'^' │ │        
+                        ¯¯¯¯¯        │ │
+                                     │ /
+                                     ││
+                                     ││
+                                     │,
 
 ```
