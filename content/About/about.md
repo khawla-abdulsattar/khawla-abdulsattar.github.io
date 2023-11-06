@@ -12,30 +12,30 @@ layout: Single
 
                     _..--¯¯¯¯--.._
                 ,-''              `-.
-              ,'                     `.                       
-             ,                         \                  
-            /                           \                   
-           /          ′.                 \                     
-          '          /  ││                ;                              
+              ,'                     `.
+             ,                         \
+            /                           \
+           /          ′.                 \
+          '          /  ││                ;
           ;       n /│  │/         │      │
           │      / v    /\/`-'v√\'.│\     ,
           :    /v`,———          ————.^.    ;
-          '   │  /′@@`,         ,@@ `\│    ;    
-          │  n│  '.@@/          \@@  /│\  │;                          
-          ` │ `    ¯¯¯           ¯¯ ¯  │ \/││           
+          '   │  /′@@`,         ,@@ `\│    ;
+          │  n│  '.@@/          \@@  /│\  │;
+          ` │ `    ¯¯¯           ¯¯ ¯  │ \/││
            \ \ \                       │ /\/
-           '; `-\          `′         /│/ │′                 
+           '; `-\          `′         /│/ │′
             `    \       —           /│  │
              `    `.              .' │  │
               v,_   `;._     _.-;    │  /
-                 `'`\│-_`'-''__/^'^' │ │        
+                 `'`\│-_`'-''__/^'^' │ │
                         ¯¯¯¯¯        │ │
                                      │ /
                                      ││
                                      ││
                                      │,
 
- hello! Im khawla, aka ResearcherX, Part-time bug collector, and Developer~
+ welcome to KhawlaWired~$ world! am Part-time bug collector, and sometimes Developing~
     Computer science student, wannabe RedTeamer!
        interested_in: ["red teaming", "OSINT", "penetration testing", "RE"]
           and that's all, welcome to my world again!
