@@ -35,8 +35,8 @@ layout: Single
                                      ││
                                      │,
 
- welcome to KhawlaWired~$ world! am Part-time bug collector, and sometimes Developing~
-    Computer science student, wannabe RedTeamer!
+ welcome to KhawlaWired~$ world! I'am Ethical Hacker and Part-time bug collector,
+    Cyber Security Researcher., wannabe => RedTeamer!
        interested_in: ["red teaming", "OSINT", "penetration testing", "RE"]
           and that's all, welcome to my world again!
 
