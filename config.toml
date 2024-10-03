@@ -11,9 +11,9 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
 
 [params]
     
-    brand = "KhawlaWired"                   
+    brand = "⋆ ˚｡⋆ The Scientist Doll ˚｡⋆"                   
     brand_image = "https://avatars.githubusercontent.com/u/139021578?s=400&u=31f0a9bbd0852e35f4a77896a38aa82b07cebd2d&v=4"   
-    description = "Ethical Hacker | Part-time bug collector | Cyber Security Researcher" # Used as default meta description if not specified in front matter
+    description = "spending most of my time doing mathematics and computer science" # Used as default meta description if not specified in front matter
     dark_mode = true   
 
 
@@ -22,8 +22,7 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
     ]
  
     github_url = "https://github.com/khawla-abdulsattar"
-    twitter_url = "https://twitter.com/khawlawired"
-    tryhackme_url = "https://tryhackme.com/p/khawlaabdulsatta"
+    twitter_url = "https://twitter.com/the_SciDoll"
      
     # Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
     rss_section = "posts"
