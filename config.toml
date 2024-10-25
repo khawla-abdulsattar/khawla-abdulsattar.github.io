@@ -11,7 +11,7 @@ pluralizelisttitle = false   # removes the automatically appended "s" on sidebar
 
 [params]
     
-    brand = "⋆ ˚｡⋆ The Scientist Doll ˚｡⋆"                   
+    brand = "The Scientist Doll"                   
     brand_image = "https://avatars.githubusercontent.com/u/139021578?s=400&u=31f0a9bbd0852e35f4a77896a38aa82b07cebd2d&v=4"   
     description = "spending most of my time doing mathematics and computer science" # Used as default meta description if not specified in front matter
     dark_mode = true   
